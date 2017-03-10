@@ -2,6 +2,11 @@
 
 These commands will create a network based on a set of genes you should provide as "seeds.txt".
 
+## Download this pipeline
+
+* With git: `git clone git@github.com:lelimat/PPI_network_pipeline.git`
+* Or directly download the zip file: `wget https://github.com/lelimat/PPI_network_pipeline/archive/master.zip`
+
 ## Download PPI database (iRefIndex)
 
 Usage: **R --slave --file=get\_PPI\_data\_iRefIndex.R [min\_evidence] [database\_dir]**.
