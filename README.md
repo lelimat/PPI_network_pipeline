@@ -17,7 +17,7 @@ These commands will create a network based on a set of genes you should provide 
 
 ## Download PPI database (iRefIndex)
 
-Usage: **R --slave --file=get\_PPI\_data\_iRefIndex.R --agrs [min\_evidence] [database\_dir]**.
+Usage: **R --slave --file=get\_PPI\_data\_iRefIndex.R --args [min\_evidence] [database\_dir]**.
 
 * [min\_evidence] is the minimum number times the interaction is being reported. I usually choose 2.
 * [database\_dir] is the directory where the iRefIndex file will be saved.
